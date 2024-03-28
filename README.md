@@ -24,27 +24,24 @@ The application consists of two main components:
 To run the MES Chatbot application, follow these steps:
 
 1. **Clone the Repository:**
-git clone https://github.com/your-username/mes-chatbot.git
+git clone https://github.com/shreyas-kalikar/MES_LLM.git
 cd mes-chatbot
-
-2. **Install Dependencies:**
-   pip install -r requirements.txt
    
-3. **Run the Flask API:**
+2. **Run the Flask API:**
    python flask_api_2.py
 
-4. **Run the Streamlit Client:**
+3. **Run the Streamlit Client:**
 - Open a new terminal window.
 - run the following command: streamlit run mes_client_2.py
-  5. **Interact with the Chatbot:**
-- Once both the Flask API and Streamlit client are running, you can interact with the MES Chatbot by entering your questions in the text input field provided by the Streamlit client.
+  
+4. **Interact with the Chatbot:**
+   Once both the Flask API and Streamlit client are running, you can interact with the MES Chatbot by entering your questions in the text input field provided by the Streamlit client.
 
 ## Directory Structure
 
 - **flask_api_2.py:** Flask application script containing the backend API logic.
 - **mes_client_2.py:** Streamlit application script containing the frontend client interface.
 - **Config.env:** Environment configuration file containing environment variables used by the application.
-- **requirements.txt:** File containing the Python dependencies required by the application.
 - **README.md:** This file providing an overview of the MES Chatbot application and setup instructions.
 
 
